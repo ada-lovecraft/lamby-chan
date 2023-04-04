@@ -23,11 +23,13 @@ jobs:
 
       - name: Test
         run: npm test
-
-      - name: Bump version, generate changelog, and cut release
-        run: npx standard-version --release-as ${GITHUB_REF#refs/tags/v} --tag-prefix v --infile CHANGELOG.md --commit-all --skip.changelog
-
-      - name: Publish to npm
-        run: npm publish
+      
+      - name: Semantic Release
+        uses: codfish/semantic-release-action@v2
+        with:
+          # specify default branches to add support for the `main` branch
+          # which semantic-release doesn't have as a default yet.
+          branches: ['main'],
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
