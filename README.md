@@ -5,11 +5,11 @@ _Lamby-chan is so excited to see you again!_
 
 Welcome, dear customer, to Lamby-chan's Moe Maid Café! ✨💕 
 
-We're so excited to present our super kawaii Node library named after our mascot, Lamby! We've lovingly crafted these adorable little λ functions to make your coding experience more delightful and fun! 
+We're so excited to present our super kawaii Node library named after our mascot, Lamby! We've lovingly crafted these adorable little `λ` functions to make your coding experience more delightful and fun! 
 
 🌈💖
 
-
+----
 🍰 How to install Lamby-chan's Library
 --------------------------------------
 
@@ -21,13 +21,13 @@ $ npm install lamby-chan
 
 Now you can enjoy the cuteness overload! 🎀🎊
 
-💌 Functions
-------------
 
+# 💌 Functions
 Here's a menu of our adorable little helper functions! We've prepared some lovely code examples to make your heart go doki-doki! 💓
 
 
------
+
+
 ### 🌈✨ Identity-chan - `id()` 🌟💖
 
 Kyaaa~! Identity-chan is so simple and pure! She just returns the value you give her, like a loyal and loving friend! (๑>ᴗ<๑)
@@ -51,8 +51,8 @@ import { curry } from 'lamby-chan'
 
 const sum = (a, b) => a + b
 const 🍛 = curry(sum)
-const 🍧 = 🍛(2)
-console.log(🍧(3)) // 5
+const add2 = 🍛(2)
+console.log(add2(3)) // 5
 ```
 
 🌸💖 🌸💖 🌸💖
@@ -62,8 +62,6 @@ console.log(🍧(3)) // 5
 ### 🎎✨ Origami-chan - `reduce()` 🌟💜
 
 Meet our precious Origami-chan! She's so talented at folding lists into beautiful shapes! Let her reduce your code into a masterpiece! ٩(๑˃̵ᴗ˂̵)و
-
-javascript
 
 ```javascript
 import { reduce } from 'lamby-chan'
@@ -82,7 +80,6 @@ console.log(🌸) // 15
 
 Welcome Pipeline-chan, the magical girl of function transformation! She creates an awe-inspiring, sparkly pipeline just for you! Let's make some kawaii code together! ヽ(♡‿♡)ノ
 
-javascript
 
 ```javascript
 import { pipe, map, filter } from 'lamby-chan'
