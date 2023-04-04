@@ -27,9 +27,15 @@ jobs:
       - name: Semantic Release
         uses: codfish/semantic-release-action@v2
         with:
-          # specify default branches to add support for the `main` branch
-          # which semantic-release doesn't have as a default yet.
-          branches: ['main']
+          branches: "main"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          
+      - name: Display Release Version
+        run: echo ${{ steps.semantic.outputs.release-version }}
+
+      - name: Displsy Semantic Release Outputs
+        run: echo "$OUTPUTS"
+        env:
+          OUTPUTS: ${{ toJson(steps.semantic.outputs) }}
