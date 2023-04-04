@@ -3,7 +3,7 @@
 ![lamby-chan](https://raw.githubusercontent.com/ada-lovecraft/lamby-chan/main/lamby-chan.png)
 _Lamby-chan is so excited to see you again!_
 
-Welcome, dear customer, to Lamby-chan's Moe Maid Café! ✨💕 
+Welcome, dear customer, to _Lamby-chan's Moe Maid Café_! ✨💕 
 
 We're so excited to present our super kawaii Node library named after our mascot, Lamby! We've lovingly crafted these adorable little `λ` functions to make your coding experience more delightful and fun! 
 

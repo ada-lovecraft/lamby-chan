@@ -1,7 +1,7 @@
 {
   "name": "lamby-chan",
   "version": "1.0.0",
-  "description": "adorable little λ functions",
+  "description": "adorable little moe moe λ functions. ヽ(♡‿♡)ノ",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -9,8 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/ada-lovecraft/lamby"
+    "url": "https://github.com/ada-lovecraft/lamby-chan"
   },
+  "homepage": "https://github.com/ada-lovecraft/lamby-chan",
+  "bugs": "https://github.com/ada-lovecraft/lamby-chan/issues",
   "author": "ada@codevinsky.com",
   "license": "WTFPL",
   "devDependencies": {
