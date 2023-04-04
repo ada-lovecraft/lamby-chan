@@ -1,12 +1,13 @@
 {
   "name": "lamby-chan",
   "version": "1.0.0",
-  "description": "adorable little moe moe algebraic λ-kun functions. ヽ(♡‿♡)ノ",
+  "description": "🌸 Lamby-chan's adorable little moe moe algebraic λ functions that just can't wait to help you with whatever you may need. ~nyaaaaa!!! 🌸",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
     "test": "ava",
-    "dev": "ava --watch"
+    "dev": "ava --watch",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,18 @@
   "author": "ada@codevinsky.com",
   "license": "WTFPL",
   "devDependencies": {
-    "ava": "^5.2.0"
+    "ava": "^5.2.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
