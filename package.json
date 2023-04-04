@@ -1,0 +1,19 @@
+{
+  "name": "lamby-chan",
+  "version": "1.0.0",
+  "description": "adorable little λ functions",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ada-lovecraft/lamby"
+  },
+  "author": "ada@codevinsky.com",
+  "license": "WTFPL",
+  "devDependencies": {
+    "ava": "^5.2.0"
+  }
+}
