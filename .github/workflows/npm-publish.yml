@@ -29,7 +29,7 @@ jobs:
         with:
           # specify default branches to add support for the `main` branch
           # which semantic-release doesn't have as a default yet.
-          branches: ['main'],
+          branches: ['main']
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
