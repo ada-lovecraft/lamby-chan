@@ -86,3 +86,21 @@ test("compact", t => {
 test("concat", t => {
   t.deepEqual(lamby.concat([1, 2, 3], [4, 5, 6]), [1, 2, 3, 4, 5, 6])
 })
+
+test("flatten", t => {
+  t.deepEqual(lamby.flatten([1, [2, 3, 4], 5]), [1, 2, 3, 4, 5])
+  t.deepEqual(lamby.flatten([1, [2, 3, [4]], 5]), [1, 2, 3, [4], 5])
+})
+
+test("flatMap", t => {
+  const f = n => [n, n * 2]
+  t.deepEqual(lamby.flatMap(f, [1, 2, 3]), [1, 2, 2, 4, 3, 6])
+})
+
+test("flattenDeep", t => {
+  t.deepEqual(lamby.flattenDeep([1, [2, 3, 4], 5]), [1, 2, 3, 4, 5])
+  t.deepEqual(
+    lamby.flattenDeep([1, [2, 3, [4, 5, [6, [7], 8, [9, [0]]]]]]),
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+  )
+})

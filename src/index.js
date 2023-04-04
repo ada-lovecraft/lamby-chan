@@ -60,10 +60,19 @@ export const compact = arr => arr.filter(Boolean)
 export const concat = curry((arr1, arr2) => arr1.concat(arr2))
 
 // flatten :: [[a]] -> [a]
-export const flatten = reduce((acc, val) => concat(acc, val), [])
+export function flatten(arr) {
+  return reduce(
+    (acc, val) => (Array.isArray(val) ? concat(acc, val) : [...acc, val]),
+    [],
+    arr
+  )
+}
 
 // flatMap :: (a -> [b]) -> [a] -> [b]
 export const flatMap = curry((fn, arr) => flatten(map(fn, arr)))
+
+export const flattenDeep = arr =>
+  flatMap(d => (Array.isArray(d) ? flattenDeep(d) : d), arr)
 
 export default {
   id,
@@ -83,4 +92,5 @@ export default {
   concat,
   flatten,
   flatMap,
+  flattenDeep,
 }

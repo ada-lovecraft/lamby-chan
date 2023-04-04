@@ -1,11 +1,12 @@
 {
   "name": "lamby-chan",
   "version": "1.0.0",
-  "description": "adorable little moe moe λ functions. ヽ(♡‿♡)ノ",
+  "description": "adorable little moe moe algebraic λ-kun functions. ヽ(♡‿♡)ノ",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "dev": "ava --watch"
   },
   "repository": {
     "type": "git",
