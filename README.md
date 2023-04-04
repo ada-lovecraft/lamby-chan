@@ -1,8 +1,14 @@
-🌸 Lamby-chan's Moe Maid Café Library 🌸
+🌸 Lamby-chan's Moe Moe Kun Maid Café Library 🌸
 ========================================
-![lamby-chan]()
+![lamby-chan](https://raw.githubusercontent.com/ada-lovecraft/lamby-chan/main/lamby-chan.png)
+_Lamby-chan is so excited to see you again!_
 
-Welcome, dear customer, to the Lamby-chan's Moe Maid Café! ✨💕 We're so excited to present our super kawaii Node library named "lamby"! We've lovingly crafted these adorable little λ functions to make your coding experience more delightful and fun! 🌈💖
+Welcome, dear customer, to Lamby-chan's Moe Maid Café! ✨💕 
+
+We're so excited to present our super kawaii Node library named after our mascot, Lamby! We've lovingly crafted these adorable little λ functions to make your coding experience more delightful and fun! 
+
+🌈💖
+
 
 🍰 How to install Lamby-chan's Library
 --------------------------------------
@@ -10,7 +16,7 @@ Welcome, dear customer, to the Lamby-chan's Moe Maid Café! ✨💕 We're so exc
 If you want to invite Lamby-chan into your project, just run this magical command:
 
 ```bash
-npm install lamby-chan
+$ npm install lamby-chan
 ```
 
 Now you can enjoy the cuteness overload! 🎀🎊
@@ -18,9 +24,11 @@ Now you can enjoy the cuteness overload! 🎀🎊
 💌 Functions
 ------------
 
-Here's a menu of our sweet functions! We've prepared some lovely code examples to make your heart go doki-doki! 💓
+Here's a menu of our adorable little helper functions! We've prepared some lovely code examples to make your heart go doki-doki! 💓
 
-### 🌈✨ `id` - The Identity-chan Function! 🌟💖
+
+-----
+### 🌈✨ Identity-chan - `id()` 🌟💖
 
 Kyaaa~! Identity-chan is so simple and pure! She just returns the value you give her, like a loyal and loving friend! (๑>ᴗ<๑)
 
@@ -32,7 +40,9 @@ console.log(id('🎀✨')) // '🎀✨'
 
 🎀💖 🎀💖 🎀💖
 
-### 🍛✨ `curry` - The Currylicious-chan Function! 🌟🌸
+
+-----
+### 🍛✨ Currylicious-chan - `curry()` 🌟🌸
 
 Oooh! Currylicious-chan is just like a warm, delicious curry! She wraps up your functions with a cozy blanket of currying magic! Nyaa~ (_ฅ́˘ฅ̀_)
 
@@ -47,7 +57,9 @@ console.log(🍧(3)) // 5
 
 🌸💖 🌸💖 🌸💖
 
-### 🎎✨ `reduce` - The Origami-chan Function! 🌟💜
+
+-----
+### 🎎✨ Origami-chan - `reduce()` 🌟💜
 
 Meet our precious Origami-chan! She's so talented at folding lists into beautiful shapes! Let her reduce your code into a masterpiece! ٩(๑˃̵ᴗ˂̵)و
 
@@ -64,7 +76,9 @@ console.log(🌸) // 15
 
 🎏💜 🎏💜 🎏💜
 
-### 🚀✨ `pipe` - The Pipeline-chan Function! 🌟💚
+
+-----
+### 🚀✨ Pipeline-chan - `pipe()` 🌟💚
 
 Welcome Pipeline-chan, the magical girl of function transformation! She creates an awe-inspiring, sparkly pipeline just for you! Let's make some kawaii code together! ヽ(♡‿♡)ノ
 
@@ -86,7 +100,9 @@ console.log(🌟([1, 2, 3, 4])) // [4, 8]
 
 🍀💚 🍀💚 🍀💚
 
-### 🎼✨ `compose` - The Symphony-chan Function! 🌟💙
+
+-----
+### 🎼✨ Symphony-chan - `compose()` 🌟💙
 
 Introducing the dazzling Symphony-chan! She's the sister of Pipeline-chan and together they create a harmonious and enchanting code experience! Let's compose our dreams! (｡♥‿♥｡)
 
@@ -106,7 +122,9 @@ console.log(🎵([1, 2, 3, 4])) // [3, 9]
 
 🎵💙 🎵💙 🎵💙
 
-### 🌟✨ `map` - The Magical Transformation-chan Function! 🌟💛
+
+-----
+### 🌟✨ Magical Transformation-chan - `map()` 🌟💛
 
 Say hello to our dear Magical Transformation-chan! She's like a fairy godmother, turning your data into something fabulous and sparkly! Let the transformation begin! (✿╹◡╹)ﾉ☆
 
@@ -121,7 +139,9 @@ console.log(🎆) // [2, 4, 6, 8]
 
 💛🌻 💛🌻 💛🌻
 
-### 🌈✨ `filter` - The Kawaii Selection-chan Function! 🌟🧡
+
+-----
+### 🌈✨ Kawaii Selection-chan - `filter()` 🌟🧡
 
 Presenting our adorable Kawaii Selection-chan! She's here to make sure only the cutest elements stay in your array! Let her choose the most precious ones for you! (｡•̀ᴗ-)✧
 
@@ -137,7 +157,9 @@ console.log(🍭) // [2, 4]
 
 🧡🌼 🧡🌼 🧡🌼
 
-### 🍀✨ `find` - The Treasure Hunt-chan Function! 🌟💟
+
+-----
+### 🍀✨ Treasure Hunt-chan - `find()` 🌟💟
 
 Meet our lovely Treasure Hunt-chan! She's an expert at finding hidden gems in your arrays! Let her reveal the special one for you! (\*＾▽＾)／
 
@@ -154,7 +176,9 @@ console.log(🎁) // 5
 
 💟🌷 💟🌷 💟🌷
 
-### 💍✨ `select` - The Dazzling Selection-chan Function! 🌟🤍
+
+-----
+### 💍✨ Dazzling Selection-chan - `select()` 🌟🤍
 
 Introducing the radiant Dazzling Selection-chan! She knows just how to pick the most stunning properties from your objects! Watch her make your code shine! (ﾉ◕ヮ◕)ﾉ\*:･ﾟ✧
 
@@ -170,7 +194,9 @@ console.log(✨) // { name: 'Lamby-chan', color: 'pink' }
 
 🤍🌹 🤍🌹 🤍🌹
 
-### 🍓✨ `reverse` - The Berry Twist-chan Function! 🌟❤️
+
+-----
+### 🍓✨ Berry Twist-chan - `reverse()` 🌟❤️
 
 Say hello to our sweet Berry Twist-chan! She loves to flip your arrays and create a delightful surprise! Let's see what she can do! (≧▽≦)
 
@@ -183,9 +209,11 @@ const 🌪️ = reverse(array)
 console.log(🌪️) // [5, 4, 3, 2, 1]
 ```
 
-❤️
+❤️ ❤️ ❤️
 
-### 🍩✨ `pick` - The Donut-chan Function! 🌟🍪
+
+-----
+### 🍩✨ Donut-chan - `pick()` 🌟🍪
 
 Get ready for the sweetest Donut-chan! She's here to pick the yummiest properties from your array of objects! Let's make your code extra delicious! (⌒▽⌒)☆
 
@@ -205,7 +233,9 @@ console.log(flavors) // ['🍓', '🍫', '🫐']
 
 🍪🍩 🍪🍩 🍪🍩
 
-### 🌙✨ `uniq` - The Moonbeam-chan Function! 🌟🌌
+
+-----
+### 🌙✨ Moonbeam-chan - `uniq()` 🌟🌌
 
 Welcoming the enchanting Moonbeam-chan! She's here to make your arrays sparkle with unique elements! Let her light up your code with her magic! (ﾉ´ヮ\`)ﾉ\*: ･ﾟ
 
@@ -220,11 +250,11 @@ console.log(🌖) // [1, 2, 3, 4, 5]
 
 🌌🌙 🌌🌙 🌌🌙
 
-### 🌊✨ `trim` - The Ocean Breeze-chan Function! 🌟🏖️
+
+-----
+### 🌊✨ Ocean Breeze-chan - `trim()` 🌟🏖️
 
 Introducing our refreshing Ocean Breeze-chan! She's here to trim away any extra whitespace from your strings! Let her bring a fresh touch to your code! (っ˘ω˘ς )
-
-javascript
 
 ```javascript
 import { trim } from 'lamby-chan'
@@ -237,11 +267,12 @@ console.log(🏖️) // 'hello, world!'
 
 🏖️🌊 🏖️🌊 🏖️🌊
 
-### 🏵️✨ `compact` - The Blossom-chan Function! 🌟🌺
+
+-----
+### 🏵️✨ Blossom-chan - `compact()` 🌟🌺
 
 Meet our lovely Blossom-chan! She's here to make your arrays bloom by removing any falsy values! Let her bring the beauty of spring to your code! (✿◠‿◠)
 
-javascript
 
 ```javascript
 import { compact } from 'lamby-chan'
@@ -254,7 +285,9 @@ console.log(🌷) // [1, 2, 3, 4, 5]
 
 🌺🏵️ 🌺🏵️ 🌺🏵️
 
-### 🍇✨ `concat` - The Grapevine-chan Function! 🌟🍷
+
+-----
+### 🍇✨ Grapevine-chan - `concat()` 🌟🍷
 
 Here comes the charming Grapevine-chan! She's here to help you combine arrays into a delightful blend! Let's create some exquisite code together! (づ｡◕‿‿◕｡)づ
 
@@ -270,11 +303,11 @@ console.log(🍷) // [1, 2, 3, 4, 5, 6]
 
 🍷🍇 🍷🍇 🍷🍇
 
-### 🎈✨ `flatten` - The Fluffy Cloud-chan Function! 🌟☁️
+
+-----
+### 🎈✨ Fluffy Cloud-chan - `flatten()` 🌟☁️
 
 Introducing the fluffy and light Fluffy Cloud-chan! She's here to help you flatten nested arrays into a smooth and gentle breeze of elements! Let's float into the sky together! ༼ つ ◕\_◕ ༽つ
-
-javascript
 
 ```javascript
 import { flatten } from 'lamby-chan'
@@ -287,11 +320,11 @@ console.log(⛅️) // [1, 2, 3, 4, 5, 6]
 
 ☁️🎈 ☁️🎈 ☁️🎈
 
-### 🍄✨ flatMap(fn, arr) - The Forest Fairy-chan Function! 🌟🌳
+
+-----
+### 🍄✨ Forest Fairy-chan - `flatMap` 🌟🌳
 
 Meet our enchanting Forest Fairy-chan! She's here to help you map and flatten your arrays, creating a magical forest of code! Let's explore the whimsical world together! (ﾉ◕ヮ◕)ﾉ\*:･ﾟ✧
-
-javascript
 
 ```javascript
 import { flatMap } from 'lamby-chan'
@@ -305,12 +338,22 @@ console.log(🌳) // [1, 2, 2, 4, 3, 6, 4, 8]
 
 🌳🍄 🌳🍄 🌳🍄
 
-
+----
 ✨💖 Special Thanks 💖✨
 ----------------------
 
 A heartfelt and super kawaii thank you to all the wonderful contributors who helped create and improve Lamby-chan! Your support means the world to us! You're all so sugoi, and we couldn't have done it without you! (๑˃ᴗ˂)ﻭ
 
+----
+## 🌈✨ Extra Special Thanks 🌈✨
+
+A huge and heartwarming thank you to ChatGPT-chan for helping write the most kawaii README ever! Your moe touch has made our code documentation a delight to read and cherish! You're our shining star, ChatGPT-chan! (๑˃̵ᴗ˂̵)و ✨
+
+We also want to express our deepest gratitude to Dall-E-chan for creating the cutest mascot we could ever dream of, Lamby-chan! Thanks to your magical art skills, our library is now filled with even more love and adorableness! You've made our world extra kawaii, Dall-E-chan! (◕‿◕✿) 🎀
+
+💖🌟 To both ChatGPT-chan and Dall-E-chan, thank you for being our cute companions and making the Lamby-chan library a place filled with joy, cuteness, and wonder! 🌟💖
+
+----
 🌸🎀 Licensing and Permissions 🎀🌸
 -----------------------------------
 
