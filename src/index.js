@@ -4,7 +4,7 @@
 export const id = x => x
 
 // curry :: ((a, b, ...) -> c) -> a -> b -> ... -> c
-const curry =
+export const curry =
   fn =>
   (...args) => {
     if (args.length >= fn.length) return fn(...args)
