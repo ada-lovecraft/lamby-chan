@@ -1,6 +1,6 @@
 {
   "name": "lamby-chan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🌸 Lamby-chan's adorable little moe moe algebraic λ functions that just can't wait to help you with whatever you may need. ~nyaaaaa!!! 🌸",
   "main": "src/index.js",
   "type": "module",
